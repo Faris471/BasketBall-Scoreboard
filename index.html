@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="score-board">
+                <h1>HOME</h1>
+                <p id="home-counter" class="counter">0</p>
+                <div class="btn-container">
+                    <button class="btn" onclick="addPoints('home', 1)">+1</button>
+                    <button class="btn" onclick="addPoints('home', 2)">+2</button>
+                    <button class="btn" onclick="addPoints('home', 3)">+3</button>
+                </div>
+            </div>
+            <div class="score-board">
+                <h1>GUEST</h1>
+                <p id="guest-counter" class="counter">0</p>
+                <div class="btn-container">
+                    <button class="btn" onclick="addPoints('guest', 1)">+1</button>
+                    <button class="btn" onclick="addPoints('guest', 2)">+2</button>
+                    <button class="btn" onclick="addPoints('guest', 3)">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

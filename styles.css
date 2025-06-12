@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Cursed Timer ULiL Font";
+    src: url(fonts/cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.container {
+    background: #059669;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.counter {
+    font-size: 90px;
+    font-family: "Cursed Timer ULiL Font";
+    color: #F94F6D;
+    background-color: black;
+    border-radius: 5px;
+    margin: 20px auto;
+    
+    /* FIXED: Set fixed dimensions and use flexbox for perfect centering */
+    width: 170px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Remove the problematic padding */
+    padding-top: 15px;
+}
+
+.btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 3px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #A7F3D0;
+    font-size: 17px;
+    font-family: "Cursed Timer ULiL Font";
+    background: #059669;
+    border: 2px solid #A7F3D0;
+    border-radius: 5px;
+}
